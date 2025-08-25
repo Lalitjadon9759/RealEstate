@@ -1,0 +1,158 @@
+{
+  "properties": [
+    {
+      "id": "abc123",
+      "title": "Modern 3BHK near City Park",
+      "price": 12500000,
+      "currency": "₹",
+      "status": "Available",
+      "address": "112 Park Lane, Indore, MP",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "areaSqft": 1650,
+      "amenities": ["Gym", "Swimming Pool", "Basement Parking", "24x7 Security"],
+      "description": "Sunlit corner apartment with south-facing balconies, modular kitchen, and smart home automation.",
+      "location": { "lat": 22.7196, "lng": 75.8577 },
+      "media": {
+        "images": [
+          { "url": "/media/p1.jpg", "alt": "Front elevation" },
+          { "url": "/media/p2.webp", "alt": "Living room" },
+          { "url": "/media/p3.png", "alt": "Kitchen" }
+        ],
+        "videos": [
+          { "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "provider": "youtube" }
+        ]
+      },
+      "pois": [
+        { "id": "school1", "name": "Green Valley School", "type": "school", "lat": 22.723, "lng": 75.855 },
+        { "id": "grocery1", "name": "FreshMart Superstore", "type": "grocery", "lat": 22.718, "lng": 75.861 },
+        { "id": "park1", "name": "City Central Park", "type": "park", "lat": 22.721, "lng": 75.858 },
+        { "id": "metro1", "name": "Metro Station A", "type": "transit", "lat": 22.715, "lng": 75.851 }
+      ],
+      "floorPlan": {
+        "image": "/media/floorplan.svg",
+        "rooms": [
+          { "id": "living", "name": "Living Room", "x": 18, "y": 22, "w": 20, "h": 14, "dims": "16' x 12'" },
+          { "id": "kitchen", "name": "Kitchen", "x": 42, "y": 24, "w": 12, "h": 10, "dims": "10' x 8'" },
+          { "id": "bed1", "name": "Bedroom 1", "x": 62, "y": 18, "w": 16, "h": 12, "dims": "12' x 10'" },
+          { "id": "bed2", "name": "Bedroom 2", "x": 62, "y": 40, "w": 16, "h": 12, "dims": "12' x 10'" },
+          { "id": "bath", "name": "Bathroom", "x": 44, "y": 42, "w": 8, "h": 8, "dims": "6' x 6'" }
+        ]
+      }
+    },
+    {
+      "id": "def456",
+      "title": "Luxury Villa with Private Pool",
+      "price": 32500000,
+      "currency": "₹",
+      "status": "Available",
+      "address": "45 Palm Residency, Bhopal, MP",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "areaSqft": 4200,
+      "amenities": ["Private Pool", "Garden", "Home Theater", "Solar Power"],
+      "description": "Elegant villa with Italian marble flooring, landscaped garden, and smart lighting.",
+      "location": { "lat": 23.2599, "lng": 77.4126 },
+      "media": {
+        "images": [
+          { "url": "/media/villa1.jpg", "alt": "Villa front view" },
+          { "url": "/media/villa2.webp", "alt": "Private pool" },
+          { "url": "/media/villa3.png", "alt": "Master bedroom" }
+        ],
+        "videos": [
+          { "url": "https://www.youtube.com/watch?v=abc123xyz", "provider": "youtube" }
+        ]
+      },
+      "pois": [
+        { "id": "school2", "name": "International Public School", "type": "school", "lat": 23.261, "lng": 77.415 },
+        { "id": "hospital1", "name": "Apollo Hospital", "type": "hospital", "lat": 23.258, "lng": 77.418 },
+        { "id": "mall1", "name": "DB City Mall", "type": "shopping", "lat": 23.257, "lng": 77.410 }
+      ],
+      "floorPlan": {
+        "image": "/media/floorplan2.svg",
+        "rooms": [
+          { "id": "living", "name": "Living Room", "x": 12, "y": 18, "w": 24, "h": 16, "dims": "22' x 18'" },
+          { "id": "dining", "name": "Dining Area", "x": 40, "y": 20, "w": 16, "h": 12, "dims": "14' x 12'" },
+          { "id": "bed1", "name": "Master Bedroom", "x": 60, "y": 18, "w": 20, "h": 16, "dims": "18' x 15'" },
+          { "id": "kitchen", "name": "Kitchen", "x": 28, "y": 40, "w": 14, "h": 12, "dims": "12' x 10'" }
+        ]
+      }
+    },
+    {
+      "id": "ghi789",
+      "title": "Cozy 2BHK Apartment Downtown",
+      "price": 8500000,
+      "currency": "₹",
+      "status": "Pending",
+      "address": "78 MG Road, Indore, MP",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "areaSqft": 980,
+      "amenities": ["Lift", "Security", "Covered Parking"],
+      "description": "Compact apartment with modern interiors, ideal for working professionals.",
+      "location": { "lat": 22.724, "lng": 75.876 },
+      "media": {
+        "images": [
+          { "url": "/media/apt1.jpg", "alt": "Building exterior" },
+          { "url": "/media/apt2.webp", "alt": "Living room" },
+          { "url": "/media/apt3.png", "alt": "Bedroom" }
+        ],
+        "videos": [
+          { "url": "https://www.youtube.com/watch?v=def456uvw", "provider": "youtube" }
+        ]
+      },
+      "pois": [
+        { "id": "metro2", "name": "Metro Station B", "type": "transit", "lat": 22.726, "lng": 75.879 },
+        { "id": "grocery2", "name": "Daily Needs Store", "type": "grocery", "lat": 22.722, "lng": 75.874 },
+        { "id": "gym1", "name": "Gold’s Gym", "type": "fitness", "lat": 22.725, "lng": 75.878 }
+      ],
+      "floorPlan": {
+        "image": "/media/floorplan3.svg",
+        "rooms": [
+          { "id": "living", "name": "Living Room", "x": 14, "y": 20, "w": 18, "h": 12, "dims": "14' x 11'" },
+          { "id": "kitchen", "name": "Kitchen", "x": 36, "y": 22, "w": 10, "h": 8, "dims": "8' x 7'" },
+          { "id": "bed1", "name": "Bedroom 1", "x": 52, "y": 18, "w": 14, "h": 10, "dims": "10' x 9'" },
+          { "id": "bed2", "name": "Bedroom 2", "x": 52, "y": 36, "w": 14, "h": 10, "dims": "10' x 9'" }
+        ]
+      }
+    },
+    {
+      "id": "jkl012",
+      "title": "Elegant Penthouse with Rooftop Garden",
+      "price": 45000000,
+      "currency": "₹",
+      "status": "Sold",
+      "address": "12 Skyline Towers, Indore, MP",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "areaSqft": 5200,
+      "amenities": ["Rooftop Garden", "Infinity Pool", "Private Elevator", "Home Office"],
+      "description": "Exclusive penthouse with panoramic city views, fully furnished, and premium interiors.",
+      "location": { "lat": 22.730, "lng": 75.862 },
+      "media": {
+        "images": [
+          { "url": "/media/penthouse1.jpg", "alt": "Rooftop garden" },
+          { "url": "/media/penthouse2.webp", "alt": "Infinity pool" },
+          { "url": "/media/penthouse3.png", "alt": "Luxury interiors" }
+        ],
+        "videos": [
+          { "url": "https://www.youtube.com/watch?v=ghi789rst", "provider": "youtube" }
+        ]
+      },
+      "pois": [
+        { "id": "park2", "name": "Skyline Park", "type": "park", "lat": 22.732, "lng": 75.860 },
+        { "id": "school3", "name": "Elite Academy", "type": "school", "lat": 22.734, "lng": 75.864 },
+        { "id": "hospital2", "name": "City Care Hospital", "type": "hospital", "lat": 22.728, "lng": 75.861 }
+      ],
+      "floorPlan": {
+        "image": "/media/floorplan4.svg",
+        "rooms": [
+          { "id": "living", "name": "Living Room", "x": 20, "y": 24, "w": 26, "h": 18, "dims": "24' x 20'" },
+          { "id": "bed1", "name": "Master Bedroom", "x": 60, "y": 20, "w": 22, "h": 16, "dims": "20' x 18'" },
+          { "id": "bed2", "name": "Guest Bedroom", "x": 62, "y": 42, "w": 18, "h": 14, "dims": "16' x 12'" },
+          { "id": "kitchen", "name": "Kitchen", "x": 36, "y": 44, "w": 14, "h": 12, "dims": "12' x 10'" }
+        ]
+      }
+    }
+  ]
+}
